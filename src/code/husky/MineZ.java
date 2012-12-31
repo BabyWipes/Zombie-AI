@@ -44,7 +44,6 @@ public class MineZ extends JavaPlugin implements Listener {
 				}
 			}
 			if (z != null) {
-				p.sendMessage(ChatColor.RED + "A zombie heard your footsteps!");
 				z.setTarget(p);
 			}
 		}
@@ -62,7 +61,6 @@ public class MineZ extends JavaPlugin implements Listener {
 				}
 			}
 			if (z != null) {
-				p.sendMessage(ChatColor.RED + "A zombie heard your footsteps!");
 				z.setTarget(p);
 			}
 		} else {
@@ -74,7 +72,6 @@ public class MineZ extends JavaPlugin implements Listener {
 				}
 			}
 			if (z != null) {
-				p.sendMessage(ChatColor.RED + "A zombie heard your footsteps!");
 				z.setTarget(p);
 			}
 		}
